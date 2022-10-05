@@ -3,7 +3,7 @@
 
 不定期更新
 
-Exercise 周末前看心情出
+Exercise 周四前看心情出
 
 CW 目前无
 

@@ -27,6 +27,10 @@ public class Pandamic {
         }
 
 //        // for loop
+//        // notice that the initial condition is null
+//        // if we set for(int day=1;totalNum<population;day++)
+//        // then variable "day" is only accessible during loop
+//        // once loop is over, variable "day" is out of the scope
 //        for(;totalNum<population;day++){
 //            totalNum=totalNum*(infectRate+1);
 //        }

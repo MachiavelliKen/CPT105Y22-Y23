@@ -10,9 +10,9 @@ public class ADiamondisFORever {
             // calculate the number of * in this row
             int starCount;
             if (i < (n - 1) / 2) {
-                starCount = 2 * i + 1;
+                starCount = 2 * i + 1; //upper part of diamond
             } else {
-                starCount = 2 * (n - i) - 1;
+                starCount = 2 * (n - i) - 1;// lower part of diamond
             }
 
             int dotCount = (n - starCount) / 2;// calculate the number of dot

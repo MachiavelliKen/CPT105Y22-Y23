@@ -1,0 +1,66 @@
+
+----------------------explanations on  if structure------------------------
+
+It is very important that you understand the design logic behind if-elseif-....-else structure.
+
+
+This structure is used to deal with different situations (or conditions, or scenarios). However, "different" is a very vague adjective. We have to understand it through mathematical concepts.
+
+
+ if("condition"){code body1}else{code body 2} is used for two exclusive events.
+
+
+For example, suppose the "condition" is "student higher than 160cm".
+
+Now, we have a student Andy with a height 170cm and this student is higher 160cm. So we execute code body1.
+
+Next we have a student Tom with a height 150cm and this student is below 160cm.So we execute code body2.
+
+
+you see no matter which student with any arbitrary height, we execute exactly one code body.  exactly one means that for any student with any arbitrary height we can always find a suitable condition, And once we find a suitable condition we do the corresponding code body under that condition. After we finish the corresponding code body, we will jump out of if structure and execute code after if structure.
+
+
+ int a=3;\\line 1
+
+ if(a>2){\\line 2
+
+   System.out.println("a is larger than 2");\\line 3
+
+}else{\\line 4
+
+  System.out.println("a is smaller than or equal to 2");  \\line 5
+
+ }
+
+
+System.out.println("if structure over ")\\line 7
+
+
+In above example, the programme will execute line1->2->3->-7.  It will not execute line 4 and 5.
+
+
+
+ int a=1;\\line 1
+
+ if(a>2){\\line 2
+
+   System.out.println("a is larger than 2");\\line 3
+
+}else{\\line 4
+
+  System.out.println("a is smaller than or equal to 2");  \\line 5
+
+ }
+
+
+System.out.println("if structure over ")\\line 7
+
+In above example, the programme will execute line1->2->4->5->7. 
+
+
+If-elseif-elseif-...-else is for multi-exclusive conditions.
+
+
+Thus, please carefully read the question and design conditions.
+
+

@@ -5,6 +5,8 @@
 
 Exercise Solution Design released before lab accordingly
 
+This only contains one possible correct strategy for your reference
+
 No CW
 
 Report any problems in issue section

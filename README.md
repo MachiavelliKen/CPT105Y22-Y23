@@ -3,8 +3,8 @@
 
 不定期更新
 
-Exercise 周四前看心情出
+Exercise Solution Design released before lab accordingly
 
-CW 目前无
+No CW
 
 Report any problems in issue section
